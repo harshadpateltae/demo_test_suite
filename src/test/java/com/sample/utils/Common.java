@@ -203,8 +203,8 @@ public class Common extends AbstractPage {
 			System.out.println("Step " + stepcount + " : " + msg[1].trim());
 			Base.steps.set(stepcount + 1);
 		} else {
-			Reporter.log("Message : " + message);
-			System.out.println("Message : " + message);
+			Reporter.log(message);
+			System.out.println(message);
 		}
 	}
 
@@ -342,7 +342,6 @@ public class Common extends AbstractPage {
 		highlightElement(element);
 		try {
 			element.click();
-			log("Normal");
 		} catch (Exception e) {
 		}
 	}

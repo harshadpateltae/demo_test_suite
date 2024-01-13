@@ -14,26 +14,26 @@ public class HomePage extends Base {
 
 	@Test(groups = {
 			"smoke" }, description = "Home Page:Verify logo, login and other section present in header.", enabled = true)
-	public void vaerifyAllHeaderSectionsPresent() throws InterruptedException {
-		common.log("Step :: Open URL - " + pr.getProperty("front_URL"));
+	public void verifyAllHeaderSectionsPresent() throws InterruptedException {
+		common.log("Step :: Open URL - https://www.makemytrip.com/");
 		Thread.sleep(2000);
-		common.log("Step :: Varify mmt logo present.");
+		common.log("Step :: Verify mmt logo present.");
 		Assert.assertTrue(common.isElementDisplayed(ap.HOMEPAGE_LOGO));
 
-		common.log("Step :: Varify mmt login section present.");
+		common.log("Step :: Verify mmt login section present.");
 		Assert.assertTrue(common.isElementDisplayed(ap.HOMEPAGE_LOGIN));
 
-		common.log("Step :: Varify mmt country & currency selection dropdown present.");
+		common.log("Step :: Verify mmt country & currency selection dropdown present.");
 		Assert.assertTrue(common.isElementDisplayed(ap.HOMEPAGE_LANGUAGE));
 
-		common.log("Step :: Varify mmt search section present.");
+		common.log("Step :: Verify mmt search section present.");
 		Assert.assertTrue(common.isElementDisplayed(ap.HOMEPAGE_LANGUAGE));
 	}
 
 	@Test(groups = { "smoke" }, description = "Home Page:Verify country currency widget workinng fine.", enabled = true)
-	public void vaerifyCountryCurrencyWidget() throws InterruptedException {
-		common.log("Step :: Open URL - " + pr.getProperty("front_URL"));
-		common.log("Step :: Varify mmt country & currency selection section present.");
+	public void verifyCountryCurrencyWidget() throws InterruptedException {
+		common.log("Step :: Open URL - https://www.makemytrip.com/");
+		common.log("Step :: Verify mmt country & currency selection section present.");
 		Assert.assertTrue(common.isElementDisplayed(ap.HOMEPAGE_LANGUAGE));
 
 		common.log("Step :: Click on mmt country & currency selection section present.");
@@ -56,7 +56,7 @@ public class HomePage extends Base {
 	@Test(groups = {
 			"smoke" }, description = "Home Page:Verify flight search functionality working fine.", enabled = true)
 	public void verifySearchFlight() throws InterruptedException {
-		common.log("Step :: Open URL - " + pr.getProperty("front_URL"));
+		common.log("Step :: Open URL - https://www.makemytrip.com/");
 		String fromCity = "Ahmedabad";
 		String toCity = "Singapore";
 		common.log("Step :: Click on flights logo.");
@@ -75,14 +75,13 @@ public class HomePage extends Base {
 		common.typeAndSelectFirst(ap.OPEN_TO_CITY, toCity);
 		common.assertTwoValuesAreEqual(common.getValue(ap.TO_CITY), toCity);
 
-		common.log("Step :: Select  departure date from opend calander.");
+		common.log("Step :: Select  departure date from opened calander.");
 		int allDepDates = driver.findElements(By.xpath(ap.SELECT_DATE)).size();
 		String xpath = ap.SELECT_DATE + "[" + Common.generateRandomInteger(allDepDates) + "]";
-		common.log(xpath);
 		WebElement ele = driver.findElement(By.xpath(xpath));
 		common.jsClickWithoutWait(ele);
 
-		common.log("Step :: Select  return date from opend calander.");
+		common.log("Step :: Select  return date from opened calander.");
 		int allReturnDates = driver.findElements(By.xpath(ap.SELECT_DATE)).size();
 		String xpathReturn = ap.SELECT_DATE + "[" + Common.generateRandomInteger(allReturnDates) + "]";
 		WebElement element = driver.findElement(By.xpath(xpathReturn));
@@ -91,7 +90,7 @@ public class HomePage extends Base {
 		common.log("Step :: Click on select travellers.");
 		common.click(ap.SELECT_TRAVELLERS);
 
-		common.log("Step :: Select 2 adults");
+		common.log("Step :: Select 2 adults.");
 		WebElement adult = driver.findElement(By.xpath(ap.ADULTS2));
 		adult.click();
 
@@ -115,21 +114,21 @@ public class HomePage extends Base {
 			if (i % 2 == 1) {
 				String xpathLeft = ap.LEFT_CITY + "[" + i + "]";
 				String fromCityPage = common.getText(xpathLeft);
-				common.log(fromCityPage + ":" + fromCity);
-				common.assertTwoValuesAreEqual(common.getText(xpathLeft), fromCity);
+				// common.log(fromCityPage + ":" + fromCity);
+				common.assertTwoValuesAreEqual(fromCityPage, fromCity);
 				String xpathRight = ap.RIGHT_CITY + "[" + i + "]";
 				String toCityPage = common.getText(xpathRight);
-				common.log(toCityPage + ":" + toCity);
-				common.assertTwoValuesAreEqual(common.getText(xpathRight), toCity);
+				// common.log(toCityPage + ":" + toCity);
+				common.assertTwoValuesAreEqual(toCityPage, toCity);
 			} else {
 				String xpathLeft = ap.LEFT_CITY + "[" + i + "]";
 				String toCityPage1 = common.getText(xpathLeft);
-				common.log(toCityPage1 + ":" + toCity);
-				common.assertTwoValuesAreEqual(common.getText(xpathLeft), toCity);
+				// common.log(toCityPage1 + ":" + toCity);
+				common.assertTwoValuesAreEqual(toCityPage1, toCity);
 				String xpathRight = ap.RIGHT_CITY + "[" + i + "]";
 				String fromCityPage1 = common.getText(xpathRight);
-				common.log(fromCityPage1 + ":" + fromCity);
-				common.assertTwoValuesAreEqual(common.getText(xpathRight), fromCity);
+				// common.log(fromCityPage1 + ":" + fromCity);
+				common.assertTwoValuesAreEqual(fromCityPage1, fromCity);
 			}
 		}
 	}

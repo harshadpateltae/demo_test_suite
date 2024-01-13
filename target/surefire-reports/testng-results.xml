@@ -2,222 +2,231 @@
 <testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Step 0 : Open URL - null]]>
+      <![CDATA[Step 1 : Open URL - https://www.makemytrip.com/]]>
     </line>
     <line>
-      <![CDATA[Step 1 : Varify mmt logo present.]]>
+      <![CDATA[Step 2 : Verify mmt logo present.]]>
     </line>
     <line>
-      <![CDATA[Step 2 : Varify mmt login section present.]]>
+      <![CDATA[Step 3 : Verify mmt login section present.]]>
     </line>
     <line>
-      <![CDATA[Step 3 : Varify mmt country & currency selection dropdown present.]]>
+      <![CDATA[Step 4 : Verify mmt country & currency selection dropdown present.]]>
     </line>
     <line>
-      <![CDATA[Step 4 : Varify mmt search section present.]]>
+      <![CDATA[Step 5 : Verify mmt search section present.]]>
     </line>
     <line>
-      <![CDATA[Message : PASS : vaerifyAllHeaderSectionsPresent]]>
+      <![CDATA[<font color=238E23><strong><i> PASS : verifyAllHeaderSectionsPresent</i></strong></font>]]>
     </line>
     <line>
-      <![CDATA[Step 0 : Open URL - null]]>
+      <![CDATA[Step 1 : Open URL - https://www.makemytrip.com/]]>
     </line>
     <line>
-      <![CDATA[Step 1 : Varify mmt country & currency selection section present.]]>
+      <![CDATA[Step 2 : Verify mmt country & currency selection section present.]]>
     </line>
     <line>
-      <![CDATA[Step 2 : Click on mmt country & currency selection section present.]]>
+      <![CDATA[Step 3 : Click on mmt country & currency selection section present.]]>
     </line>
     <line>
-      <![CDATA[Step 3 : Select country USA from dropdown.]]>
+      <![CDATA[Step 4 : Select country USA from dropdown.]]>
     </line>
     <line>
-      <![CDATA[Message : FAIL : vaerifyCountryCurrencyWidget]]>
+      <![CDATA[Step 5 : Click on apply button.]]>
     </line>
     <line>
-      <![CDATA[<a href='/Users/apple/Documents/HHP/Projects/sample/target/failsafe-reports/chrome/screenshots/vaerifyCountryCurrencyWidget.png'> <img src='/Users/apple/Documents/HHP/Projects/sample/target/failsafe-reports/chrome/screenshots/vaerifyCountryCurrencyWidget.png' height='250' width='500'/> </a>]]>
+      <![CDATA[<font color=#FF0000><strong><i> FAIL : verifyCountryCurrencyWidget</i></strong></font>]]>
     </line>
     <line>
-      <![CDATA[Step 0 : Open URL - null]]>
+      <![CDATA[<a href='/Users/apple/Documents/HHP/Projects/sample/target/failsafe-reports/chrome/screenshots/verifyCountryCurrencyWidget.png'> <img src='/Users/apple/Documents/HHP/Projects/sample/target/failsafe-reports/chrome/screenshots/verifyCountryCurrencyWidget.png' height='250' width='500'/> </a>]]>
     </line>
     <line>
-      <![CDATA[Step 1 : Click on flights logo.]]>
+      <![CDATA[Step 1 : Open URL - https://www.makemytrip.com/]]>
     </line>
     <line>
-      <![CDATA[Step 2 : Click on round trip radio button.]]>
+      <![CDATA[Step 2 : Click on flights logo.]]>
     </line>
     <line>
-      <![CDATA[Step 3 : Enter ahmedabad in from textbox.]]>
+      <![CDATA[Step 3 : Click on round trip radio button.]]>
     </line>
     <line>
-      <![CDATA[Message : FAIL : verifySearchFlight]]>
+      <![CDATA[Step 4 : Enter ahmedabad in from textbox.]]>
     </line>
     <line>
-      <![CDATA[<a href='/Users/apple/Documents/HHP/Projects/sample/target/failsafe-reports/chrome/screenshots/verifySearchFlight.png'> <img src='/Users/apple/Documents/HHP/Projects/sample/target/failsafe-reports/chrome/screenshots/verifySearchFlight.png' height='250' width='500'/> </a>]]>
+      <![CDATA[Step 5 : Enter singapre in to textbox.]]>
     </line>
     <line>
-      <![CDATA[Step 0 : Open URL - null]]>
+      <![CDATA[Step 6 : Select  departure date from opened calander.]]>
     </line>
     <line>
-      <![CDATA[Step 1 : Click oon super offer tab in header.]]>
+      <![CDATA[Step 7 : Select  return date from opened calander.]]>
     </line>
     <line>
-      <![CDATA[Message : Normal]]>
+      <![CDATA[Step 8 : Click on select travellers.]]>
     </line>
     <line>
-      <![CDATA[Step 2 : Verify offer page opend.]]>
+      <![CDATA[Step 9 : Select 2 adults.]]>
     </line>
     <line>
-      <![CDATA[Step 3 : Click on flights radio button.]]>
+      <![CDATA[Step 10 : Click on apply button.]]>
     </line>
     <line>
-      <![CDATA[Step 4 : Click on hdfc checkbox.]]>
+      <![CDATA[Step 11 : Click on search button.]]>
     </line>
     <line>
-      <![CDATA[Step 5 : Verify all offers have hdfc bank logo with terms and conditions.]]>
+      <![CDATA[Step 12 : Verify all flights shows from and to city as per selection while search.]]>
     </line>
     <line>
-      <![CDATA[Message : PASS : verifyOfferPageFllightsHDFCFilter]]>
+      <![CDATA[<font color=238E23><strong><i> PASS : verifySearchFlight</i></strong></font>]]>
     </line>
     <line>
-      <![CDATA[Step 0 : Open URL - null]]>
+      <![CDATA[Step 1 : Open URL - https://www.makemytrip.com/]]>
     </line>
     <line>
-      <![CDATA[Step 1 : Click oon super offer tab in header.]]>
+      <![CDATA[Step 2 : Click on super offer tab in header.]]>
     </line>
     <line>
-      <![CDATA[Message : Normal]]>
+      <![CDATA[Step 3 : Verify offer page opened.]]>
     </line>
     <line>
-      <![CDATA[Step 2 : Verify offer page opend.]]>
+      <![CDATA[<font color=#FF0000><strong><i> FAIL : verifyOfferPageFlightsHDFCFilter</i></strong></font>]]>
     </line>
     <line>
-      <![CDATA[Step 3 : Click on hotels radio button.]]>
+      <![CDATA[<a href='/Users/apple/Documents/HHP/Projects/sample/target/failsafe-reports/chrome/screenshots/verifyOfferPageFlightsHDFCFilter.png'> <img src='/Users/apple/Documents/HHP/Projects/sample/target/failsafe-reports/chrome/screenshots/verifyOfferPageFlightsHDFCFilter.png' height='250' width='500'/> </a>]]>
     </line>
     <line>
-      <![CDATA[Step 4 : Click on axis checkbox.]]>
+      <![CDATA[Step 1 : Open URL - https://www.makemytrip.com/]]>
     </line>
     <line>
-      <![CDATA[Step 5 : Verify all offers have axis bank logo with terms and conditions.]]>
+      <![CDATA[Step 2 : Click on super offer tab in header.]]>
     </line>
     <line>
-      <![CDATA[Message : PASS : verifyOfferPageHotelAxisFilter]]>
+      <![CDATA[Step 3 : Verify offer page opened.]]>
     </line>
     <line>
-      <![CDATA[Step 0 : Open URL - null]]>
+      <![CDATA[Step 4 : Click on hotels radio button.]]>
     </line>
     <line>
-      <![CDATA[Step 1 : Click oon super offer tab in header.]]>
+      <![CDATA[Step 5 : Click on axis checkbox.]]>
     </line>
     <line>
-      <![CDATA[Message : Normal]]>
+      <![CDATA[Step 6 : Verify all offers have axis bank logo with terms and conditions.]]>
     </line>
     <line>
-      <![CDATA[Step 2 : Verify offer page opend.]]>
+      <![CDATA[<font color=238E23><strong><i> PASS : verifyOfferPageHotelAxisFilter</i></strong></font>]]>
     </line>
     <line>
-      <![CDATA[Step 3 : Click on trending radio button.]]>
+      <![CDATA[Step 1 : Open URL - https://www.makemytrip.com/]]>
     </line>
     <line>
-      <![CDATA[Step 4 : Click on icici checkbox.]]>
+      <![CDATA[Step 2 : Click on super offer tab in header.]]>
     </line>
     <line>
-      <![CDATA[Step 5 : Verify all offers have icici bank logo with terms and conditions.]]>
+      <![CDATA[Step 3 : Verify offer page opened.]]>
     </line>
     <line>
-      <![CDATA[Message : PASS : verifyOfferPageTrendingICICIFilter]]>
+      <![CDATA[Step 4 : Click on trending radio button.]]>
+    </line>
+    <line>
+      <![CDATA[Step 5 : Click on icici checkbox.]]>
+    </line>
+    <line>
+      <![CDATA[Step 6 : Verify all offers have icici bank logo with terms and conditions.]]>
+    </line>
+    <line>
+      <![CDATA[<font color=238E23><strong><i> PASS : verifyOfferPageTrendingICICIFilter</i></strong></font>]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-01-11T23:05:30 IST" name="MMT demo" finished-at="2024-01-11T23:07:08 IST" duration-ms="98419">
+  <suite started-at="2024-01-13T07:39:26 IST" name="MMT Demo" finished-at="2024-01-13T07:41:06 IST" duration-ms="99899">
     <groups>
       <group name="smoke">
-        <method signature="HomePage.vaerifyAllHeaderSectionsPresent()[pri:0, instance:com.sample.modules.HomePage@7c729a55]" name="vaerifyAllHeaderSectionsPresent" class="com.sample.modules.HomePage"/>
-        <method signature="HomePage.vaerifyCountryCurrencyWidget()[pri:0, instance:com.sample.modules.HomePage@7c729a55]" name="vaerifyCountryCurrencyWidget" class="com.sample.modules.HomePage"/>
+        <method signature="HomePage.verifyAllHeaderSectionsPresent()[pri:0, instance:com.sample.modules.HomePage@7c729a55]" name="verifyAllHeaderSectionsPresent" class="com.sample.modules.HomePage"/>
+        <method signature="HomePage.verifyCountryCurrencyWidget()[pri:0, instance:com.sample.modules.HomePage@7c729a55]" name="verifyCountryCurrencyWidget" class="com.sample.modules.HomePage"/>
         <method signature="HomePage.verifySearchFlight()[pri:0, instance:com.sample.modules.HomePage@7c729a55]" name="verifySearchFlight" class="com.sample.modules.HomePage"/>
-        <method signature="OfferPage.verifyOfferPageFllightsHDFCFilter()[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" name="verifyOfferPageFllightsHDFCFilter" class="com.sample.modules.OfferPage"/>
+        <method signature="OfferPage.verifyOfferPageFlightsHDFCFilter()[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" name="verifyOfferPageFlightsHDFCFilter" class="com.sample.modules.OfferPage"/>
         <method signature="OfferPage.verifyOfferPageHotelAxisFilter()[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" name="verifyOfferPageHotelAxisFilter" class="com.sample.modules.OfferPage"/>
         <method signature="OfferPage.verifyOfferPageTrendingICICIFilter()[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" name="verifyOfferPageTrendingICICIFilter" class="com.sample.modules.OfferPage"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-01-11T23:05:30 IST" name="MMT HOME PAGE" finished-at="2024-01-11T23:06:35 IST" duration-ms="65860">
+    <test started-at="2024-01-13T07:39:26 IST" name="MMT HomePage" finished-at="2024-01-13T07:40:36 IST" duration-ms="69943">
       <class name="com.sample.modules.HomePage">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.sample.modules.HomePage@7c729a55]" started-at="2024-01-11T23:05:30 IST" name="setUp" finished-at="2024-01-11T23:05:34 IST" duration-ms="4040" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.sample.modules.HomePage@7c729a55]" started-at="2024-01-13T07:39:26 IST" name="setUp" finished-at="2024-01-13T07:39:31 IST" duration-ms="5690" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.sample.modules.HomePage.vaerifyAllHeaderSectionsPresent() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.sample.modules.HomePage.verifyAllHeaderSectionsPresent() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="vaerifyAllHeaderSectionsPresent()[pri:0, instance:com.sample.modules.HomePage@7c729a55]" started-at="2024-01-11T23:05:34 IST" name="vaerifyAllHeaderSectionsPresent" description="Home Page:Verify logo, login and other section present in header." finished-at="2024-01-11T23:05:36 IST" duration-ms="2176" status="PASS">
+        <test-method signature="verifyAllHeaderSectionsPresent()[pri:0, instance:com.sample.modules.HomePage@7c729a55]" started-at="2024-01-13T07:39:31 IST" name="verifyAllHeaderSectionsPresent" description="Home Page:Verify logo, login and other section present in header." finished-at="2024-01-13T07:39:34 IST" duration-ms="2161" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Step 0 : Open URL - null]]>
+              <![CDATA[Step 1 : Open URL - https://www.makemytrip.com/]]>
             </line>
             <line>
-              <![CDATA[Step 1 : Varify mmt logo present.]]>
+              <![CDATA[Step 2 : Verify mmt logo present.]]>
             </line>
             <line>
-              <![CDATA[Step 2 : Varify mmt login section present.]]>
+              <![CDATA[Step 3 : Verify mmt login section present.]]>
             </line>
             <line>
-              <![CDATA[Step 3 : Varify mmt country & currency selection dropdown present.]]>
+              <![CDATA[Step 4 : Verify mmt country & currency selection dropdown present.]]>
             </line>
             <line>
-              <![CDATA[Step 4 : Varify mmt search section present.]]>
+              <![CDATA[Step 5 : Verify mmt search section present.]]>
             </line>
             <line>
-              <![CDATA[Message : PASS : vaerifyAllHeaderSectionsPresent]]>
+              <![CDATA[<font color=238E23><strong><i> PASS : verifyAllHeaderSectionsPresent</i></strong></font>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- vaerifyAllHeaderSectionsPresent -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sample.modules.HomePage@7c729a55]" started-at="2024-01-11T23:05:36 IST" name="tearDown" finished-at="2024-01-11T23:05:36 IST" duration-ms="166" status="PASS">
+        </test-method> <!-- verifyAllHeaderSectionsPresent -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sample.modules.HomePage@7c729a55]" started-at="2024-01-13T07:39:34 IST" name="tearDown" finished-at="2024-01-13T07:39:34 IST" duration-ms="159" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=vaerifyAllHeaderSectionsPresent status=SUCCESS method=HomePage.vaerifyAllHeaderSectionsPresent()[pri:0, instance:com.sample.modules.HomePage@7c729a55] output=Step 0 : Open URL - null]]]>
+                <![CDATA[[TestResult name=verifyAllHeaderSectionsPresent status=SUCCESS method=HomePage.verifyAllHeaderSectionsPresent()[pri:0, instance:com.sample.modules.HomePage@7c729a55] output=Step 1 : Open URL - https://www.makemytrip.com/]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.sample.modules.HomePage@7c729a55]" started-at="2024-01-11T23:05:36 IST" name="setUp" finished-at="2024-01-11T23:05:41 IST" duration-ms="5454" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.sample.modules.HomePage@7c729a55]" started-at="2024-01-13T07:39:34 IST" name="setUp" finished-at="2024-01-13T07:39:37 IST" duration-ms="3556" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.sample.modules.HomePage.vaerifyCountryCurrencyWidget() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.sample.modules.HomePage.verifyCountryCurrencyWidget() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="vaerifyCountryCurrencyWidget()[pri:0, instance:com.sample.modules.HomePage@7c729a55]" started-at="2024-01-11T23:05:41 IST" name="vaerifyCountryCurrencyWidget" description="Home Page:Verify country currency widget workinng fine." finished-at="2024-01-11T23:06:03 IST" duration-ms="21946" status="FAIL">
+        <test-method signature="verifyCountryCurrencyWidget()[pri:0, instance:com.sample.modules.HomePage@7c729a55]" started-at="2024-01-13T07:39:37 IST" name="verifyCountryCurrencyWidget" description="Home Page:Verify country currency widget workinng fine." finished-at="2024-01-13T07:40:00 IST" duration-ms="22286" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //p[@class='selectConInput'] (tried for 20 second(s) with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //button[text()='Apply'] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.7.10', java.version: '21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.199, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /var/folders/pb/lrccxhdn21v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53582}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53582/devtoo..., se:cdpVersion: 120.0.6099.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a39b5a7409a1e458985695632bda80ea]]>
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.216, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /var/folders/pb/lrccxhdn21v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50169/devtoo..., se:cdpVersion: 120.0.6099.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ca056c52b83e54118c1132438e9a0cf]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //p[@class='selectConInput'] (tried for 20 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[text()='Apply'] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.7.10', java.version: '21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.199, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /var/folders/pb/lrccxhdn21v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53582}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53582/devtoo..., se:cdpVersion: 120.0.6099.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a39b5a7409a1e458985695632bda80ea
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.216, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /var/folders/pb/lrccxhdn21v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50169/devtoo..., se:cdpVersion: 120.0.6099.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ca056c52b83e54118c1132438e9a0cf
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
 at com.sample.utils.Common.waitUntilElementToBeClickable(Common.java:44)
 at com.sample.utils.Common.click(Common.java:341)
-at com.sample.modules.HomePage.vaerifyCountryCurrencyWidget(HomePage.java:43)
+at com.sample.modules.HomePage.verifyCountryCurrencyWidget(HomePage.java:47)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
@@ -253,37 +262,40 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
             <line>
-              <![CDATA[Step 0 : Open URL - null]]>
+              <![CDATA[Step 1 : Open URL - https://www.makemytrip.com/]]>
             </line>
             <line>
-              <![CDATA[Step 1 : Varify mmt country & currency selection section present.]]>
+              <![CDATA[Step 2 : Verify mmt country & currency selection section present.]]>
             </line>
             <line>
-              <![CDATA[Step 2 : Click on mmt country & currency selection section present.]]>
+              <![CDATA[Step 3 : Click on mmt country & currency selection section present.]]>
             </line>
             <line>
-              <![CDATA[Step 3 : Select country USA from dropdown.]]>
+              <![CDATA[Step 4 : Select country USA from dropdown.]]>
             </line>
             <line>
-              <![CDATA[Message : FAIL : vaerifyCountryCurrencyWidget]]>
+              <![CDATA[Step 5 : Click on apply button.]]>
             </line>
             <line>
-              <![CDATA[<a href='/Users/apple/Documents/HHP/Projects/sample/target/failsafe-reports/chrome/screenshots/vaerifyCountryCurrencyWidget.png'> <img src='/Users/apple/Documents/HHP/Projects/sample/target/failsafe-reports/chrome/screenshots/vaerifyCountryCurrencyWidget.png' height='250' width='500'/> </a>]]>
+              <![CDATA[<font color=#FF0000><strong><i> FAIL : verifyCountryCurrencyWidget</i></strong></font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/HHP/Projects/sample/target/failsafe-reports/chrome/screenshots/verifyCountryCurrencyWidget.png'> <img src='/Users/apple/Documents/HHP/Projects/sample/target/failsafe-reports/chrome/screenshots/verifyCountryCurrencyWidget.png' height='250' width='500'/> </a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- vaerifyCountryCurrencyWidget -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sample.modules.HomePage@7c729a55]" started-at="2024-01-11T23:06:03 IST" name="tearDown" finished-at="2024-01-11T23:06:04 IST" duration-ms="1158" status="PASS">
+        </test-method> <!-- verifyCountryCurrencyWidget -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sample.modules.HomePage@7c729a55]" started-at="2024-01-13T07:40:00 IST" name="tearDown" finished-at="2024-01-13T07:40:01 IST" duration-ms="949" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=vaerifyCountryCurrencyWidget status=FAILURE method=HomePage.vaerifyCountryCurrencyWidget()[pri:0, instance:com.sample.modules.HomePage@7c729a55] output=Step 0 : Open URL - null]]]>
+                <![CDATA[[TestResult name=verifyCountryCurrencyWidget status=FAILURE method=HomePage.verifyCountryCurrencyWidget()[pri:0, instance:com.sample.modules.HomePage@7c729a55] output=Step 1 : Open URL - https://www.makemytrip.com/]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.sample.modules.HomePage@7c729a55]" started-at="2024-01-11T23:06:04 IST" name="setUp" finished-at="2024-01-11T23:06:11 IST" duration-ms="6411" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.sample.modules.HomePage@7c729a55]" started-at="2024-01-13T07:40:01 IST" name="setUp" finished-at="2024-01-13T07:40:05 IST" duration-ms="4553" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -294,28 +306,98 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySearchFlight()[pri:0, instance:com.sample.modules.HomePage@7c729a55]" started-at="2024-01-11T23:06:11 IST" name="verifySearchFlight" description="Home Page:Verify flight search functionality working fine." finished-at="2024-01-11T23:06:35 IST" duration-ms="23727" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method signature="verifySearchFlight()[pri:0, instance:com.sample.modules.HomePage@7c729a55]" started-at="2024-01-13T07:40:05 IST" name="verifySearchFlight" description="Home Page:Verify flight search functionality working fine." finished-at="2024-01-13T07:40:35 IST" duration-ms="30351" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1 : Open URL - https://www.makemytrip.com/]]>
+            </line>
+            <line>
+              <![CDATA[Step 2 : Click on flights logo.]]>
+            </line>
+            <line>
+              <![CDATA[Step 3 : Click on round trip radio button.]]>
+            </line>
+            <line>
+              <![CDATA[Step 4 : Enter ahmedabad in from textbox.]]>
+            </line>
+            <line>
+              <![CDATA[Step 5 : Enter singapre in to textbox.]]>
+            </line>
+            <line>
+              <![CDATA[Step 6 : Select  departure date from opened calander.]]>
+            </line>
+            <line>
+              <![CDATA[Step 7 : Select  return date from opened calander.]]>
+            </line>
+            <line>
+              <![CDATA[Step 8 : Click on select travellers.]]>
+            </line>
+            <line>
+              <![CDATA[Step 9 : Select 2 adults.]]>
+            </line>
+            <line>
+              <![CDATA[Step 10 : Click on apply button.]]>
+            </line>
+            <line>
+              <![CDATA[Step 11 : Click on search button.]]>
+            </line>
+            <line>
+              <![CDATA[Step 12 : Verify all flights shows from and to city as per selection while search.]]>
+            </line>
+            <line>
+              <![CDATA[<font color=238E23><strong><i> PASS : verifySearchFlight</i></strong></font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySearchFlight -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sample.modules.HomePage@7c729a55]" started-at="2024-01-13T07:40:35 IST" name="tearDown" finished-at="2024-01-13T07:40:36 IST" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchFlight status=SUCCESS method=HomePage.verifySearchFlight()[pri:0, instance:com.sample.modules.HomePage@7c729a55] output=Step 1 : Open URL - https://www.makemytrip.com/]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sample.modules.HomePage -->
+    </test> <!-- MMT HomePage -->
+    <test started-at="2024-01-13T07:40:41 IST" name="MMT OfferPage" finished-at="2024-01-13T07:41:06 IST" duration-ms="24928">
+      <class name="com.sample.modules.OfferPage">
+        <test-method is-config="true" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-13T07:39:26 IST" name="fetchSuiteConfiguration" finished-at="2024-01-13T07:39:26 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@739265f1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-13T07:40:41 IST" name="setUp" finished-at="2024-01-13T07:40:45 IST" duration-ms="3821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sample.modules.OfferPage.verifyOfferPageFlightsHDFCFilter() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyOfferPageFlightsHDFCFilter()[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-13T07:40:45 IST" name="verifyOfferPageFlightsHDFCFilter" description="Home Page:Verify filter functioality for HDFC bank&#039;s offers for flights on offers page." finished-at="2024-01-13T07:40:47 IST" duration-ms="1989" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //input[@placeholder='From'] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.7.10', java.version: '21'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.199, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /var/folders/pb/lrccxhdn21v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53640}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53640/devtoo..., se:cdpVersion: 120.0.6099.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d4a33b179bb2c3f75047e672af05a673]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@placeholder='From'] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.7.10', java.version: '21'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.199, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /var/folders/pb/lrccxhdn21v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53640}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53640/devtoo..., se:cdpVersion: 120.0.6099.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d4a33b179bb2c3f75047e672af05a673
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-at com.sample.utils.Common.waitUntilElementToBeClickable(Common.java:44)
-at com.sample.utils.Common.typeAndSelectFirst(Common.java:303)
-at com.sample.modules.HomePage.verifySearchFlight(HomePage.java:70)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.sample.modules.OfferPage.verifyOfferPageFlightsHDFCFilter(OfferPage.java:23)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
@@ -348,105 +430,37 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Step 0 : Open URL - null]]>
+              <![CDATA[Step 1 : Open URL - https://www.makemytrip.com/]]>
             </line>
             <line>
-              <![CDATA[Step 1 : Click on flights logo.]]>
+              <![CDATA[Step 2 : Click on super offer tab in header.]]>
             </line>
             <line>
-              <![CDATA[Step 2 : Click on round trip radio button.]]>
+              <![CDATA[Step 3 : Verify offer page opened.]]>
             </line>
             <line>
-              <![CDATA[Step 3 : Enter ahmedabad in from textbox.]]>
+              <![CDATA[<font color=#FF0000><strong><i> FAIL : verifyOfferPageFlightsHDFCFilter</i></strong></font>]]>
             </line>
             <line>
-              <![CDATA[Message : FAIL : verifySearchFlight]]>
-            </line>
-            <line>
-              <![CDATA[<a href='/Users/apple/Documents/HHP/Projects/sample/target/failsafe-reports/chrome/screenshots/verifySearchFlight.png'> <img src='/Users/apple/Documents/HHP/Projects/sample/target/failsafe-reports/chrome/screenshots/verifySearchFlight.png' height='250' width='500'/> </a>]]>
+              <![CDATA[<a href='/Users/apple/Documents/HHP/Projects/sample/target/failsafe-reports/chrome/screenshots/verifyOfferPageFlightsHDFCFilter.png'> <img src='/Users/apple/Documents/HHP/Projects/sample/target/failsafe-reports/chrome/screenshots/verifyOfferPageFlightsHDFCFilter.png' height='250' width='500'/> </a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifySearchFlight -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sample.modules.HomePage@7c729a55]" started-at="2024-01-11T23:06:35 IST" name="tearDown" finished-at="2024-01-11T23:06:35 IST" duration-ms="753" status="PASS">
+        </test-method> <!-- verifyOfferPageFlightsHDFCFilter -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-13T07:40:47 IST" name="tearDown" finished-at="2024-01-13T07:40:48 IST" duration-ms="1033" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySearchFlight status=FAILURE method=HomePage.verifySearchFlight()[pri:0, instance:com.sample.modules.HomePage@7c729a55] output=Step 0 : Open URL - null]]]>
+                <![CDATA[[TestResult name=verifyOfferPageFlightsHDFCFilter status=FAILURE method=OfferPage.verifyOfferPageFlightsHDFCFilter()[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8] output=Step 1 : Open URL - https://www.makemytrip.com/]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.sample.modules.HomePage -->
-    </test> <!-- MMT HOME PAGE -->
-    <test started-at="2024-01-11T23:06:40 IST" name="MMT OFFER PAGE" finished-at="2024-01-11T23:07:08 IST" duration-ms="27530">
-      <class name="com.sample.modules.OfferPage">
-        <test-method is-config="true" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-11T23:05:30 IST" name="fetchSuiteConfiguration" finished-at="2024-01-11T23:05:30 IST" duration-ms="12" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@3b2553d9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-11T23:06:40 IST" name="setUp" finished-at="2024-01-11T23:06:44 IST" duration-ms="3873" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.sample.modules.OfferPage.verifyOfferPageFllightsHDFCFilter() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyOfferPageFllightsHDFCFilter()[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-11T23:06:44 IST" name="verifyOfferPageFllightsHDFCFilter" description="Home Page:Verify filter functioality for HDFC bank&#039;s offers for flights on offers page." finished-at="2024-01-11T23:06:49 IST" duration-ms="4920" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Step 0 : Open URL - null]]>
-            </line>
-            <line>
-              <![CDATA[Step 1 : Click oon super offer tab in header.]]>
-            </line>
-            <line>
-              <![CDATA[Message : Normal]]>
-            </line>
-            <line>
-              <![CDATA[Step 2 : Verify offer page opend.]]>
-            </line>
-            <line>
-              <![CDATA[Step 3 : Click on flights radio button.]]>
-            </line>
-            <line>
-              <![CDATA[Step 4 : Click on hdfc checkbox.]]>
-            </line>
-            <line>
-              <![CDATA[Step 5 : Verify all offers have hdfc bank logo with terms and conditions.]]>
-            </line>
-            <line>
-              <![CDATA[Message : PASS : verifyOfferPageFllightsHDFCFilter]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyOfferPageFllightsHDFCFilter -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-11T23:06:49 IST" name="tearDown" finished-at="2024-01-11T23:06:49 IST" duration-ms="166" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyOfferPageFllightsHDFCFilter status=SUCCESS method=OfferPage.verifyOfferPageFllightsHDFCFilter()[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8] output=Step 0 : Open URL - null]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-11T23:06:49 IST" name="setUp" finished-at="2024-01-11T23:06:53 IST" duration-ms="3434" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-13T07:40:48 IST" name="setUp" finished-at="2024-01-13T07:40:52 IST" duration-ms="4471" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -457,46 +471,43 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyOfferPageHotelAxisFilter()[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-11T23:06:53 IST" name="verifyOfferPageHotelAxisFilter" description="Home Page:Verify filter functioality for Axis bank&#039;s offers for hotels on offers page." finished-at="2024-01-11T23:06:58 IST" duration-ms="5041" status="PASS">
+        <test-method signature="verifyOfferPageHotelAxisFilter()[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-13T07:40:52 IST" name="verifyOfferPageHotelAxisFilter" description="Home Page:Verify filter functioality for Axis bank&#039;s offers for hotels on offers page." finished-at="2024-01-13T07:40:57 IST" duration-ms="5006" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Step 0 : Open URL - null]]>
+              <![CDATA[Step 1 : Open URL - https://www.makemytrip.com/]]>
             </line>
             <line>
-              <![CDATA[Step 1 : Click oon super offer tab in header.]]>
+              <![CDATA[Step 2 : Click on super offer tab in header.]]>
             </line>
             <line>
-              <![CDATA[Message : Normal]]>
+              <![CDATA[Step 3 : Verify offer page opened.]]>
             </line>
             <line>
-              <![CDATA[Step 2 : Verify offer page opend.]]>
+              <![CDATA[Step 4 : Click on hotels radio button.]]>
             </line>
             <line>
-              <![CDATA[Step 3 : Click on hotels radio button.]]>
+              <![CDATA[Step 5 : Click on axis checkbox.]]>
             </line>
             <line>
-              <![CDATA[Step 4 : Click on axis checkbox.]]>
+              <![CDATA[Step 6 : Verify all offers have axis bank logo with terms and conditions.]]>
             </line>
             <line>
-              <![CDATA[Step 5 : Verify all offers have axis bank logo with terms and conditions.]]>
-            </line>
-            <line>
-              <![CDATA[Message : PASS : verifyOfferPageHotelAxisFilter]]>
+              <![CDATA[<font color=238E23><strong><i> PASS : verifyOfferPageHotelAxisFilter</i></strong></font>]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyOfferPageHotelAxisFilter -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-11T23:06:58 IST" name="tearDown" finished-at="2024-01-11T23:06:58 IST" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-13T07:40:57 IST" name="tearDown" finished-at="2024-01-13T07:40:57 IST" duration-ms="179" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyOfferPageHotelAxisFilter status=SUCCESS method=OfferPage.verifyOfferPageHotelAxisFilter()[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8] output=Step 0 : Open URL - null]]]>
+                <![CDATA[[TestResult name=verifyOfferPageHotelAxisFilter status=SUCCESS method=OfferPage.verifyOfferPageHotelAxisFilter()[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8] output=Step 1 : Open URL - https://www.makemytrip.com/]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-11T23:06:58 IST" name="setUp" finished-at="2024-01-11T23:07:02 IST" duration-ms="3796" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-13T07:40:57 IST" name="setUp" finished-at="2024-01-13T07:41:01 IST" duration-ms="3488" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -507,50 +518,47 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyOfferPageTrendingICICIFilter()[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-11T23:07:02 IST" name="verifyOfferPageTrendingICICIFilter" description="Home Page:Verify filter functioality for ICICI bank&#039;s offers for trendiing on offers page." finished-at="2024-01-11T23:07:08 IST" duration-ms="5913" status="PASS">
+        <test-method signature="verifyOfferPageTrendingICICIFilter()[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-13T07:41:01 IST" name="verifyOfferPageTrendingICICIFilter" description="Home Page:Verify filter functioality for ICICI bank&#039;s offers for trendiing on offers page." finished-at="2024-01-13T07:41:05 IST" duration-ms="4783" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Step 0 : Open URL - null]]>
+              <![CDATA[Step 1 : Open URL - https://www.makemytrip.com/]]>
             </line>
             <line>
-              <![CDATA[Step 1 : Click oon super offer tab in header.]]>
+              <![CDATA[Step 2 : Click on super offer tab in header.]]>
             </line>
             <line>
-              <![CDATA[Message : Normal]]>
+              <![CDATA[Step 3 : Verify offer page opened.]]>
             </line>
             <line>
-              <![CDATA[Step 2 : Verify offer page opend.]]>
+              <![CDATA[Step 4 : Click on trending radio button.]]>
             </line>
             <line>
-              <![CDATA[Step 3 : Click on trending radio button.]]>
+              <![CDATA[Step 5 : Click on icici checkbox.]]>
             </line>
             <line>
-              <![CDATA[Step 4 : Click on icici checkbox.]]>
+              <![CDATA[Step 6 : Verify all offers have icici bank logo with terms and conditions.]]>
             </line>
             <line>
-              <![CDATA[Step 5 : Verify all offers have icici bank logo with terms and conditions.]]>
-            </line>
-            <line>
-              <![CDATA[Message : PASS : verifyOfferPageTrendingICICIFilter]]>
+              <![CDATA[<font color=238E23><strong><i> PASS : verifyOfferPageTrendingICICIFilter</i></strong></font>]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyOfferPageTrendingICICIFilter -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-11T23:07:08 IST" name="tearDown" finished-at="2024-01-11T23:07:08 IST" duration-ms="177" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-13T07:41:05 IST" name="tearDown" finished-at="2024-01-13T07:41:06 IST" duration-ms="156" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyOfferPageTrendingICICIFilter status=SUCCESS method=OfferPage.verifyOfferPageTrendingICICIFilter()[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8] output=Step 0 : Open URL - null]]]>
+                <![CDATA[[TestResult name=verifyOfferPageTrendingICICIFilter status=SUCCESS method=OfferPage.verifyOfferPageTrendingICICIFilter()[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8] output=Step 1 : Open URL - https://www.makemytrip.com/]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="after()[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-11T23:07:13 IST" name="after" finished-at="2024-01-11T23:07:13 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="after()[pri:0, instance:com.sample.modules.OfferPage@7f3b84b8]" started-at="2024-01-13T07:41:11 IST" name="after" finished-at="2024-01-13T07:41:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- com.sample.modules.OfferPage -->
-    </test> <!-- MMT OFFER PAGE -->
-  </suite> <!-- MMT demo -->
+    </test> <!-- MMT OfferPage -->
+  </suite> <!-- MMT Demo -->
 </testng-results>

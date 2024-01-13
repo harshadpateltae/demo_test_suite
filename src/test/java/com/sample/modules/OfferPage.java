@@ -13,12 +13,12 @@ public class OfferPage extends Base {
 	@Test(groups = {
 			"smoke" }, description = "Home Page:Verify filter functioality for HDFC bank's offers for flights on offers page.", enabled = true)
 
-	public void verifyOfferPageFllightsHDFCFilter() throws InterruptedException {
-		common.log("Step :: Open URL - " + pr.getProperty("front_URL"));
-		common.log("Step :: Click oon super offer tab in header.");
+	public void verifyOfferPageFlightsHDFCFilter() throws InterruptedException {
+		common.log("Step :: Open URL - https://www.makemytrip.com/");
+		common.log("Step :: Click on super offer tab in header.");
 		common.click(ap.SUPER_OFFER);
 
-		common.log("Step :: Verify offer page opend.");
+		common.log("Step :: Verify offer page opened.");
 		common.switchToSecondWindow();
 		Assert.assertTrue(driver.getCurrentUrl().contains("offers"));
 
@@ -40,11 +40,11 @@ public class OfferPage extends Base {
 	@Test(groups = {
 			"smoke" }, description = "Home Page:Verify filter functioality for ICICI bank's offers for trendiing on offers page.", enabled = true)
 	public void verifyOfferPageTrendingICICIFilter() throws InterruptedException {
-		common.log("Step :: Open URL - " + pr.getProperty("front_URL"));
-		common.log("Step :: Click oon super offer tab in header.");
+		common.log("Step :: Open URL - https://www.makemytrip.com/");
+		common.log("Step :: Click on super offer tab in header.");
 		common.click(ap.SUPER_OFFER);
 
-		common.log("Step :: Verify offer page opend.");
+		common.log("Step :: Verify offer page opened.");
 		common.switchToSecondWindow();
 		Assert.assertTrue(driver.getCurrentUrl().contains("offers"));
 
@@ -66,11 +66,11 @@ public class OfferPage extends Base {
 	@Test(groups = {
 			"smoke" }, description = "Home Page:Verify filter functioality for Axis bank's offers for hotels on offers page.", enabled = true)
 	public void verifyOfferPageHotelAxisFilter() throws InterruptedException {
-		common.log("Step :: Open URL - " + pr.getProperty("front_URL"));
-		common.log("Step :: Click oon super offer tab in header.");
+		common.log("Step :: Open URL - https://www.makemytrip.com/");
+		common.log("Step :: Click on super offer tab in header.");
 		common.click(ap.SUPER_OFFER);
 
-		common.log("Step :: Verify offer page opend.");
+		common.log("Step :: Verify offer page opened.");
 		common.switchToSecondWindow();
 		Assert.assertTrue(driver.getCurrentUrl().contains("offers"));
 

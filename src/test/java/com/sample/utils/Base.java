@@ -14,7 +14,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.ITestContext;
@@ -89,7 +88,7 @@ public class Base {
 						System.getProperty("user.dir") + pr.getProperty("driverPathWindowChrome"));
 			}
 			ChromeOptions options = new ChromeOptions();
-			//options.addArguments("--headless");
+			// options.addArguments("--headless");
 			options.addArguments("--remote-allow-origins=*");
 			options.setAcceptInsecureCerts(true);
 			// WebDriverManager.chromedriver().setup();
@@ -104,7 +103,7 @@ public class Base {
 						System.getProperty("user.dir") + pr.getProperty("driverPathWindowEdge"));
 			}
 			EdgeOptions options = new EdgeOptions();
-			//options.addArguments("--headless");
+			// options.addArguments("--headless");
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 			capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 			options.setAcceptInsecureCerts(true);
@@ -122,7 +121,7 @@ public class Base {
 			}
 			FirefoxOptions options = new FirefoxOptions();
 			options.setBinary("/Applications/Firefox.app/Contents/MacOS/firefox-bin");
-			//options.addArguments("--headless");
+			// options.addArguments("--headless");
 			options.setCapability(CapabilityType.BROWSER_NAME, "firefox");
 			options.setCapability(CapabilityType.PLATFORM_NAME, "mac");
 			threadLocalDriver.set(new FirefoxDriver(options));
@@ -131,36 +130,30 @@ public class Base {
 			throw new Exception("Browser is not correct");
 		}
 		driver.manage().window().maximize();
-		steps.set(0);
+		steps.set(1);
 		common = new Common(driver);
 		driver.get(pr.getProperty("fromt_URL"));
-
 	}
 
 	@AfterMethod(alwaysRun = true)
 	public void tearDown(ITestResult testResult) throws Exception {
 		Reporter.setCurrentTestResult(testResult);
-
 		String testName = testResult.getName();
 		Reporter.setCurrentTestResult(testResult);
 		if (testResult.isSuccess()) {
-			common.log("PASS : " + testResult.getName());
+			common.log("<font color=238E23><strong><i> PASS : " + testName + "</i></strong></font>");
 		} else if (!testResult.isSuccess()) {
-			common.log("FAIL : " + testResult.getName());
+			common.log("<font color=#FF0000><strong><i> FAIL : " + testName + "</i></strong></font>");
 			Common.takeSnapShot(driver, testName);
 			failedtestcases++;
-
 		} else {
-
 			System.out.println("TEST SKIPPED - " + testName + "\n");
 		}
-
 		totaltestcases++;
 		passedtestcases = totaltestcases - failedtestcases;
 		System.out.println("Total testcases:-" + totaltestcases);
 		System.out.println("Total passed testcases:-" + passedtestcases);
 		System.out.println("Total failed testcases:-" + failedtestcases);
-
 		if (driver != null) {
 			driver.quit();
 			threadLocalDriver.remove();

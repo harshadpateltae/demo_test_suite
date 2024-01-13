@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [MMT demo]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="MMT HOME PAGE(failed)" verbose="0">
+<suite name="Failed suite [MMT Demo]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="MMT HomePage(failed)" verbose="0">
     <classes>
       <class name="com.sample.modules.HomePage">
         <methods>
-          <include name="verifySearchFlight"/>
+          <include name="verifyCountryCurrencyWidget"/>
           <include name="setUp"/>
-          <include name="vaerifyCountryCurrencyWidget"/>
           <include name="after"/>
           <include name="tearDown"/>
           <include name="fetchSuiteConfiguration"/>
         </methods>
       </class> <!-- com.sample.modules.HomePage -->
     </classes>
-  </test> <!-- MMT HOME PAGE(failed) -->
-</suite> <!-- Failed suite [MMT demo] -->
+  </test> <!-- MMT HomePage(failed) -->
+  <test thread-count="5" name="MMT OfferPage(failed)" verbose="0">
+    <classes>
+      <class name="com.sample.modules.OfferPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyOfferPageFlightsHDFCFilter"/>
+          <include name="after"/>
+          <include name="tearDown"/>
+          <include name="fetchSuiteConfiguration"/>
+        </methods>
+      </class> <!-- com.sample.modules.OfferPage -->
+    </classes>
+  </test> <!-- MMT OfferPage(failed) -->
+</suite> <!-- Failed suite [MMT Demo] -->

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Step 1 : Open URL - https://www.makemytrip.com/]]>
+    </line>
+    <line>
+      <![CDATA[Step 2 : Verify mmt country & currency selection section present.]]>
+    </line>
+    <line>
+      <![CDATA[Step 3 : Click on mmt country & currency selection section present.]]>
+    </line>
+    <line>
+      <![CDATA[Step 4 : Select country USA from dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[Step 5 : Click on apply button.]]>
+    </line>
+    <line>
+      <![CDATA[Step 6 : Verify language english annd currency USD selected.]]>
+    </line>
+    <line>
+      <![CDATA[<font color=238E23><strong><i> PASS : verifyCountryCurrencyWidget</i></strong></font>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-01-12T08:34:17 IST" name="Default suite" finished-at="2024-01-12T08:34:26 IST" duration-ms="8554">
+    <groups>
+      <group name="smoke">
+        <method signature="HomePage.verifyCountryCurrencyWidget()[pri:0, instance:com.sample.modules.HomePage@5aa9e4eb]" name="verifyCountryCurrencyWidget" class="com.sample.modules.HomePage"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-01-12T08:34:17 IST" name="Default test" finished-at="2024-01-12T08:34:26 IST" duration-ms="8554">
+      <class name="com.sample.modules.HomePage">
+        <test-method is-config="true" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.sample.modules.HomePage@5aa9e4eb]" started-at="2024-01-12T08:34:17 IST" name="fetchSuiteConfiguration" finished-at="2024-01-12T08:34:17 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2c306a57]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.sample.modules.HomePage@5aa9e4eb]" started-at="2024-01-12T08:34:17 IST" name="setUp" finished-at="2024-01-12T08:34:23 IST" duration-ms="6278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sample.modules.HomePage.verifyCountryCurrencyWidget() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCountryCurrencyWidget()[pri:0, instance:com.sample.modules.HomePage@5aa9e4eb]" started-at="2024-01-12T08:34:23 IST" name="verifyCountryCurrencyWidget" description="Home Page:Verify country currency widget workinng fine." finished-at="2024-01-12T08:34:26 IST" duration-ms="2076" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1 : Open URL - https://www.makemytrip.com/]]>
+            </line>
+            <line>
+              <![CDATA[Step 2 : Verify mmt country & currency selection section present.]]>
+            </line>
+            <line>
+              <![CDATA[Step 3 : Click on mmt country & currency selection section present.]]>
+            </line>
+            <line>
+              <![CDATA[Step 4 : Select country USA from dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[Step 5 : Click on apply button.]]>
+            </line>
+            <line>
+              <![CDATA[Step 6 : Verify language english annd currency USD selected.]]>
+            </line>
+            <line>
+              <![CDATA[<font color=238E23><strong><i> PASS : verifyCountryCurrencyWidget</i></strong></font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCountryCurrencyWidget -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sample.modules.HomePage@5aa9e4eb]" started-at="2024-01-12T08:34:26 IST" name="tearDown" finished-at="2024-01-12T08:34:26 IST" duration-ms="164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCountryCurrencyWidget status=SUCCESS method=HomePage.verifyCountryCurrencyWidget()[pri:0, instance:com.sample.modules.HomePage@5aa9e4eb] output=Step 1 : Open URL - https://www.makemytrip.com/]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.sample.modules.HomePage@5aa9e4eb]" started-at="2024-01-12T08:34:31 IST" name="after" finished-at="2024-01-12T08:34:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.sample.modules.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
